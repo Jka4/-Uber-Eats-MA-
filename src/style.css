@@ -1,0 +1,245 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Header START */
+
+header {
+  height: 72px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.logotype {
+  width: 119.23px;
+  height: 14.31px;
+  margin-top: 30px;
+  /* margin-left: 7.24021352313%; */
+}
+
+.delivery_adress {
+  margin-left: 123px;
+  margin-top: 16px;
+  height: 40px;
+  /* width: 390px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+#from {
+  width: 65px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+input[type="text"] {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.to {
+  margin: auto;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+#adress_to {
+  width: 292px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.signIn {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-left: 92px;
+}
+
+.register {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  background: #262626;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.signIn a {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+.register a {
+  color: white;
+  text-decoration: none;
+}
+
+.busket {
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+/* Header END */
+
+.searchInput {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-left: 81px; */
+  margin: 0 auto;
+}
+
+.searchIcon {
+  margin-top: 44px;
+}
+
+.search input {
+  margin-top: 40px;
+  width: 915px;
+  height: 50px;
+  text-align: left;
+  outline: none;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  background: url(images/search.png) no-repeat scroll 7px 14px;
+  padding-left: 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.title p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #1d1d1d;
+  margin-right: 805px;
+  margin-top: 56px;
+}
+
+/* Main START */
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.mainContainer {
+  width: 956px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.card {
+  width: 308px;
+  height: 366px;
+  mix-blend-mode: normal;
+  margin-top: 16px;
+}
+
+.card:hover {
+  background: #75757509;
+  cursor: pointer;
+}
+
+.cardTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #1d1d1d;
+  margin-top: 16px;
+}
+
+.cardDescription {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #626262;
+  margin-top: 4px;
+}
+
+.cardTime {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  /* identical to box height, or 162% */
+
+  display: flex;
+  align-items: center;
+
+  color: #1d1d1d;
+  margin-top: 4;
+}
+
+/* Main END */
