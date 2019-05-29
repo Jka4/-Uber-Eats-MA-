@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -69,6 +73,7 @@ input[type="text"] {
   border-radius: 2px;
   font-size: 16px;
   line-height: 24px;
+  background: url(images/Group.png) no-repeat scroll 12px 12px;
 }
 
 .signIn {
@@ -128,10 +133,6 @@ input[type="text"] {
   margin: 0 auto;
 }
 
-.searchIcon {
-  margin-top: 44px;
-}
-
 .search input {
   margin-top: 40px;
   width: 915px;
@@ -177,7 +178,7 @@ main {
 
 .mainContainer {
   width: 956px;
-  height: auto;
+  /* height: auto; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -186,10 +187,14 @@ main {
 }
 
 .card {
-  width: 308px;
+  width: 317px;
   height: 366px;
   mix-blend-mode: normal;
   margin-top: 16px;
+}
+
+.image {
+  margin-left: 4.5px;
 }
 
 .card:hover {
@@ -210,6 +215,8 @@ main {
 
   color: #1d1d1d;
   margin-top: 16px;
+  margin-left: 6px;
+
 }
 
 .cardDescription {
@@ -225,6 +232,8 @@ main {
 
   color: #626262;
   margin-top: 4px;
+  margin-left: 6px;
+
 }
 
 .cardTime {
@@ -240,6 +249,218 @@ main {
 
   color: #1d1d1d;
   margin-top: 4;
+  margin-left: 6px;
+
 }
 
 /* Main END */
+
+
+/* Footer START */
+
+footer {
+  height: 580px;
+  left: 0px;
+  margin-top: 80px;
+  background: #262626;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.footerContainer {
+  width: 956px;
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+.white_logo {
+  width: 190.77px;
+  height: 19.69px;
+  margin-top: 56px;
+}
+
+
+.line {
+  height: 1px;
+  margin-top: 47px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  margin-top: 32px;
+}
+
+.first_line {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+#someId {
+  width: 227px;
+  height: 40px;
+  background: #3B3B3B;
+  border-radius: 2px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
+  outline: none;
+  border: 0;
+}
+
+.green_turma {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-top: 33px;
+}
+
+b {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #49A144;
+}
+
+
+.socialIcon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 87px;
+  margin-top: 17px;
+  ;
+}
+
+#icon_social {
+  width: 24px;
+  height: 24px;
+}
+
+.socialIcon img {
+  cursor: pointer;
+}
+
+
+.second_line {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  margin-left: 97px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.second_line p {
+  cursor: pointer;
+}
+
+.third_line {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: left;
+  margin-left: 154px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.third_line p {
+  cursor: pointer;
+}
+
+.line_some {
+  height: 1px;
+  margin-top: 40px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.download img {
+  margin-left: 50px;
+  cursor: pointer;
+
+}
+
+
+.bottom_line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.bottom_line p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  margin-top: 40px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* Footer END */
+
+.toTop {
+  width: 80px;
+  height: 80px;
+  background: #59BD5A;
+  border-radius: 2px;
+  position: fixed;
+  top: 88%;
+  left: 88%;
+  scroll-behavior: smooth;
+}
+
+.toTop img {
+  margin: 0 auto;
+  margin-left: calc(40px - (15.27px / 2));
+  margin-top: calc(40px - (24.99px / 2));
+}
+
