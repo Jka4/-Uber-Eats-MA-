@@ -1,0 +1,167 @@
+@media (min-width: 640px) and (max-width: 1023px) {
+
+
+  .logotype {
+    width: 105.44px;
+    height: 10.88px;
+    margin-top: 31px;
+    margin-left: 8px;
+
+  }
+
+  .delivery_adress {
+    margin-left: 22px;
+    margin-top: 16px;
+
+  }
+
+  #from {
+    width: 57px;
+    height: 40px;
+
+  }
+
+  .to {
+    width: 12px;
+    height: 16px;
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #626262;
+  }
+
+
+  #adress_to {
+    width: 215px;
+    height: 40px;
+  }
+
+  .signIn {
+    margin-left: 88px;
+    background: #FFFFFF;
+  }
+
+  .busket {
+    margin-left: 16px;
+  }
+
+  .search input {
+    width: 752px;
+    height: 45px;
+    margin-top: 40px;
+  }
+
+  .title {
+    width: 207px;
+    height: 34px;
+  }
+
+  .title p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #1d1d1d;
+  }
+
+
+
+
+
+  .mainContainer {
+    width: 97%;
+  }
+
+
+  .card {
+    width: 397px;
+    height: 370px;
+    mix-blend-mode: normal;
+    margin-top: 16px;
+  }
+
+  .image {
+    margin-left: 4.5px;
+    margin: 0 auto;
+    width: 397px;
+    text-align: -webkit-center;
+  }
+
+  .image img {
+    width: 100%;
+    height: 256px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
