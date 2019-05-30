@@ -440,6 +440,8 @@ b {
   flex-wrap: nowrap;
   justify-content: center;
   margin-top: 40px;
+  margin-left: -50px;
+
 }
 
 .download img {

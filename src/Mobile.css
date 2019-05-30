@@ -1,11 +1,11 @@
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 640px) {
 
   header {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
 
@@ -33,11 +33,15 @@
     visibility: hidden
   }
 
+
+
   #from input {
     width: 23vw;
     height: 40px;
     margin-right: 0;
+    margin-top: 5px;
   }
+
 
 
   #adress_to {
@@ -45,8 +49,6 @@
     height: 40px;
 
   }
-
-
 
 
   .verification_block {
@@ -71,13 +73,13 @@
 
 
   .search {
-    width: 92%;
+    width: 90%;
     order: -1;
 
   }
 
   .search input {
-    width: 92%;
+    width: 90%;
     height: 45px;
     margin-top: 40px;
   }
@@ -89,4 +91,119 @@
   .busket {
     visibility: hidden
   }
+
+
+
+  .title {
+    display: block;
+    margin-top: 130px;
+    width: 300px;
+    height: 40px;
+    margin-left: 2%;
+
+  }
+
+  .title p {
+    width: 300px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #1d1d1d;
+  }
+
+  .mainContainer {
+    width: 98%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
+  .card {
+    width: 96vw;
+    height: auto;
+    mix-blend-mode: normal;
+    margin-top: 16px;
+  }
+
+  .image {
+    margin: 0 auto;
+    width: 100%;
+    height: 35%;
+    text-align: -webkit-center;
+  }
+
+
+  .image img {
+
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+  footer {
+    height: auto;
+  }
+
+  .footerContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .white_logo {
+    width: 190.77px;
+    height: 19.69px;
+    margin-left: 8px;
+  }
+
+  .blocks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    margin-left: 8px;
+  }
+
+  .first_line,
+  .second_line,
+  .third_line {
+    margin-left: 0;
+  }
+
+  .download {
+    margin-top: 25px;
+  }
+
+  .line_some {
+    margin-top: 25px;
+  }
+
+  .bottom_line {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+
+  .bottom_line p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .heze {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 8px;
+
+  }
+
+
+
+
 }
