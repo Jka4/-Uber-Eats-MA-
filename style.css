@@ -100,8 +100,8 @@ input[type="text"] {
 
 .signIn:active {
   background-color: #2222220e;
-  -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.66);
-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.66);
+  -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.66);
+  box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.66);
 }
 
 .register {
@@ -128,8 +128,8 @@ box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.66);
 
 .register:active {
   background-color: #1b1b1bb7;
-  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.66);
-  box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.66);
+  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.66);
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.66);
 }
 
 .signIn a {
@@ -222,12 +222,14 @@ main {
 }
 
 .card img {
+  transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
 }
 
 .card:hover img {
+  transition: all 0.5s ease-out;
   -webkit-transform: scale(1.01);
   -moz-transform: scale(1.01);
   -o-transform: scale(1.01);
