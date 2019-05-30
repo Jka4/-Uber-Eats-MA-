@@ -263,7 +263,7 @@ main {
 /* Footer START */
 
 footer {
-  height: 580px;
+  height: auto;
   left: 0px;
   margin-top: 80px;
   background: #262626;
@@ -275,7 +275,7 @@ footer {
 
 .footerContainer {
   width: 956px;
-  height: 552px;
+  height: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -451,23 +451,30 @@ b {
 }
 
 
-.bottom_line {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
+/* .bottom_line {
+  margin-right: calc(100% - 50px);
+} */
 
-.bottom_line p {
+.heze p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 11px;
   line-height: 13px;
 
-  margin-top: 36px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.heze {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% - 200px);
+
 }
 
 /* Footer END */
@@ -488,6 +495,3 @@ b {
   margin-left: calc(30px - (15.27px / 2));
   margin-top: calc(30px - (24.99px / 2));
 }
-
-
-
