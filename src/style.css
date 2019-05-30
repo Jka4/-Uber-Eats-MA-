@@ -319,24 +319,43 @@ footer {
   justify-content: left;
 }
 
-#someId {
+.select-style {
+  border: 0 solid #ccc;
   width: 227px;
   height: 40px;
-  background: #3B3B3B;
+  background: #3B3B3B url("images/world.png") no-repeat;
+  background-position: 16px;
   border-radius: 2px;
+  overflow: hidden;
+}
 
+.select-style select {
+  padding: 10px 58px;
+  margin: 0 auto;
+  width: 227px;
+  height: 100%;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  color: #FFFFFF;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 15px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
-
+  background: url("images/Arrow_select.png") no-repeat;
+  background-position: 196px;
   outline: none;
   border: 0;
 }
+
+.select-style select:focus {
+  outline: none;
+}
+
 
 .green_turma {
   font-family: Roboto;

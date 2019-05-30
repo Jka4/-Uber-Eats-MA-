@@ -99,7 +99,7 @@
 
 
   .card {
-    width: 376px;
+    width: 370px;
     height: 370px;
     mix-blend-mode: normal;
     margin-top: 16px;
@@ -108,7 +108,7 @@
   .image {
     margin-left: 4.5px;
     margin: 0 auto;
-    width: 376px;
+    width: 370px;
     text-align: -webkit-center;
   }
 
@@ -149,7 +149,7 @@
   }
 
   .bottom_line {
-    height: 90px;
+    height: 93px;
   }
 
   .download {
