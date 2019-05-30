@@ -61,6 +61,7 @@ input[type="text"] {
 
 .to {
   margin: auto;
+  margin-top: 9px;
   margin-left: 9px;
   margin-right: 9px;
 }
@@ -485,3 +486,6 @@ b {
   margin-left: calc(30px - (15.27px / 2));
   margin-top: calc(30px - (24.99px / 2));
 }
+
+
+

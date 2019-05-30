@@ -1,0 +1,92 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  .logotype {
+    margin-top: 31px;
+    margin-left: 8px;
+    order: 0;
+
+  }
+
+  .delivery_adress {
+    order: 2;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .to {
+    width: 3vw;
+    margin: 0;
+    visibility: hidden
+  }
+
+  #from input {
+    width: 23vw;
+    height: 40px;
+    margin-right: 0;
+  }
+
+
+  #adress_to {
+    width: 40vh;
+    height: 40px;
+
+  }
+
+
+
+
+  .verification_block {
+    width: auto;
+    margin-right: 8px;
+    margin-left: 0;
+    order: 1;
+  }
+
+  .signIn {
+    width: 72px;
+    margin-left: 0;
+  }
+
+  .register {
+    width: 72px;
+    margin-left: 9px;
+  }
+
+
+
+
+
+  .search {
+    width: 92%;
+    order: -1;
+
+  }
+
+  .search input {
+    width: 92%;
+    height: 45px;
+    margin-top: 40px;
+  }
+
+  input#search {
+    margin-right: 5%;
+  }
+
+  .busket {
+    visibility: hidden
+  }
+}

@@ -1,16 +1,21 @@
 @media (min-width: 768px) and (max-width: 1023px) {
 
 
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   .logotype {
     width: 105.44px;
     height: 10.88px;
-    margin-top: 31px;
     margin-left: 8px;
 
   }
 
   .delivery_adress {
-    margin-left: 22px;
+    margin-left: 5vh;
     margin-top: 16px;
 
   }
@@ -27,6 +32,7 @@
     margin: auto;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 13px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -42,13 +48,13 @@
     height: 40px;
   }
 
-  .signIn {
-    margin-left: 88px;
-    background: #FFFFFF;
+  .verification_block {
+    margin-left: 5;
   }
 
-  .busket {
-    margin-left: 16px;
+  .signIn {
+    margin-left: 75px;
+    background: #FFFFFF;
   }
 
   .search {
