@@ -91,7 +91,17 @@ input[type="text"] {
   margin-top: 16px;
   margin-left: 92px;
   cursor: pointer;
+  outline: none;
+}
 
+.signIn:hover {
+  background-color: #2222221e;
+}
+
+.signIn:active {
+  background-color: #2222220e;
+  -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.66);
+box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.66);
 }
 
 .register {
@@ -110,6 +120,16 @@ input[type="text"] {
   margin-left: 16px;
   cursor: pointer;
   outline: none;
+}
+
+.register:hover {
+  background-color: #1b1b1ba6;
+}
+
+.register:active {
+  background-color: #1b1b1bb7;
+  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.66);
+  box-shadow: inset 0px 0px 3px 1px rgba(0,0,0,0.66);
 }
 
 .signIn a {
@@ -199,6 +219,18 @@ main {
 
 .image {
   margin-left: 4.5px;
+}
+
+.card img {
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.card:hover img {
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -o-transform: scale(1.01);
 }
 
 .card:hover {
@@ -330,6 +362,10 @@ footer {
   overflow: hidden;
 }
 
+.select-style:hover {
+  background-color: rgb(68, 68, 68);
+}
+
 .select-style select {
   padding: 10px 58px;
   margin: 0 auto;
@@ -451,9 +487,7 @@ b {
 }
 
 
-/* .bottom_line {
-  margin-right: calc(100% - 50px);
-} */
+
 
 .heze p {
   font-family: Roboto;
@@ -462,8 +496,9 @@ b {
   font-size: 11px;
   line-height: 13px;
 
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
   color: #FFFFFF;
   cursor: pointer;
 }
