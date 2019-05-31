@@ -1,1 +1,1 @@
-- [Demo link] (https://jka4.github.io/-Uber-Eats-MA-/)
+- [Demo link](https://jka4.github.io/-Uber-Eats-MA-/)
