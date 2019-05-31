@@ -12,8 +12,8 @@ body {
 
 header {
   height: 72px;
-  background: #ffffff;
-  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  background: #fff;
+  box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -24,14 +24,12 @@ header {
   width: 119.23px;
   height: 14.31px;
   margin-top: 30px;
-  /* margin-left: 7.24021352313%; */
 }
 
 .delivery_adress {
   margin-left: 123px;
   margin-top: 16px;
   height: 40px;
-  /* width: 390px; */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -47,15 +45,15 @@ header {
   font-size: 16px;
   line-height: 24px;
   outline: none;
-  box-shadow: 0px 1px 8px rgba(61, 78, 97, 0.1);
+  box-shadow: 0 1px 8px rgba(61, 78, 97, 0.1);
 }
 
 #from:hover {
-  box-shadow: 0px 3px 8px rgba(61, 78, 97, 0.2);
+  box-shadow: 0 3px 8px rgba(61, 78, 97, 0.2);
 }
 
 #from:focus {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F6F6F7 100%);
+  background: linear-gradient(180deg, #fff 0%, #f6f6f7 100%);
   border-radius: 1px;
 }
 
@@ -86,16 +84,16 @@ input[type="text"] {
   font-size: 16px;
   line-height: 24px;
   background: url(images/Group.png) no-repeat scroll 12px 12px;
-  box-shadow: 0px 1px 8px rgba(61, 78, 97, 0.1);
+  box-shadow: 0 1px 8px rgba(61, 78, 97, 0.1);
   outline: none;
 }
 
 #adress_to:hover {
-  box-shadow: 0px 3px 8px rgba(61, 78, 97, 0.2);
+  box-shadow: 0 3px 8px rgba(61, 78, 97, 0.2);
 }
 
 #adress_to:focus {
-  background: linear-gradient(180deg, #FFFFFF 0%, #F6F6F7 100%);
+  background: linear-gradient(180deg, #fff 0%, #f6f6f7 100%);
   border-radius: 1px;
 }
 
@@ -122,8 +120,8 @@ input[type="text"] {
 
 .signIn:active {
   background-color: #2222220e;
-  -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.66);
-  box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: inset 0 0 3 0 rgba(0, 0, 0, 0.66);
+  box-shadow: inset 0 0 3 0 rgba(0, 0, 0, 0.66);
 }
 
 .register {
@@ -150,8 +148,8 @@ input[type="text"] {
 
 .register:active {
   background-color: #1b1b1bb7;
-  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.66);
-  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.66);
+  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.66);
 }
 
 .signIn a {
@@ -186,8 +184,6 @@ input[type="text"] {
   text-align: left;
   outline: none;
   border: 0;
-  outline: 0;
-  background: transparent;
   border-bottom: 1px solid black;
   background: url(images/search.png) no-repeat scroll 7px 14px;
   padding-left: 40px;
@@ -224,11 +220,10 @@ main {
 
 .mainContainer {
   width: 956px;
-  /* height: auto; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   justify-content: space-between;
 }
 
@@ -269,10 +264,8 @@ main {
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
-
   display: flex;
   align-items: center;
-
   color: #1d1d1d;
   margin-top: 16px;
   margin-left: 6px;
@@ -286,10 +279,8 @@ main {
   font-size: 14px;
   line-height: 21px;
   /* identical to box height, or 150% */
-
   display: flex;
   align-items: center;
-
   color: #626262;
   margin-top: 4px;
   margin-left: 6px;
@@ -303,24 +294,20 @@ main {
   font-size: 13px;
   line-height: 21px;
   /* identical to box height, or 162% */
-
   display: flex;
   align-items: center;
-
   color: #1d1d1d;
   margin-top: 4;
   margin-left: 6px;
-
 }
 
 /* Main END */
-
 
 /* Footer START */
 
 footer {
   height: auto;
-  left: 0px;
+  left: 0;
   margin-top: 80px;
   background: #262626;
   display: flex;
@@ -344,11 +331,10 @@ footer {
   margin-top: 56px;
 }
 
-
 .line {
   height: 1px;
   margin-top: 47px;
-  background: #FFFFFF;
+  background: #fff;
   mix-blend-mode: normal;
   opacity: 0.4;
 }
@@ -356,7 +342,7 @@ footer {
 .line_some {
   height: 1px;
   margin-top: 40px;
-  background: #FFFFFF;
+  background: #fff;
   mix-blend-mode: normal;
   opacity: 0.4;
 }
@@ -380,7 +366,7 @@ footer {
   border: 0 solid #ccc;
   width: 227px;
   height: 40px;
-  background: #3B3B3B url("images/world.png") no-repeat;
+  background: #3b3b3b url("images/world.png") no-repeat;
   background-position: 16px;
   border-radius: 2px;
   overflow: hidden;
@@ -396,10 +382,8 @@ footer {
   width: 227px;
   height: 100%;
   box-shadow: none;
-  background: transparent;
-  background-image: none;
   -webkit-appearance: none;
-  color: #FFFFFF;
+  color: #fff;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -417,14 +401,13 @@ footer {
   outline: none;
 }
 
-
 .green_turma {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 33px;
 }
 
@@ -434,9 +417,8 @@ b {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #49A144;
+  color: #49a144;
 }
-
 
 .socialIcon {
   display: flex;
@@ -445,7 +427,6 @@ b {
   justify-content: space-between;
   width: 87px;
   margin-top: 17px;
-  ;
 }
 
 #icon_social {
@@ -456,7 +437,6 @@ b {
 .socialIcon img {
   cursor: pointer;
 }
-
 
 .second_line {
   display: flex;
@@ -469,7 +449,7 @@ b {
   font-weight: normal;
   font-size: 13px;
   line-height: 15px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .second_line p {
@@ -487,7 +467,7 @@ b {
   font-weight: normal;
   font-size: 13px;
   line-height: 15px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .third_line p {
@@ -501,17 +481,12 @@ b {
   justify-content: center;
   margin-top: 40px;
   margin-left: -50px;
-
 }
 
 .download img {
   margin-left: 50px;
   cursor: pointer;
-
 }
-
-
-
 
 .heze p {
   font-family: Roboto;
@@ -519,11 +494,9 @@ b {
   font-weight: normal;
   font-size: 11px;
   line-height: 13px;
-
   margin-top: 24px;
   margin-bottom: 24px;
-
-  color: #FFFFFF;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -533,7 +506,6 @@ b {
   flex-wrap: wrap;
   justify-content: space-between;
   width: calc(100% - 200px);
-
 }
 
 /* Footer END */
@@ -541,7 +513,7 @@ b {
 .toTop {
   width: 60px;
   height: 60px;
-  background: #59BD5A;
+  background: #59bd5a;
   border-radius: 2px;
   position: fixed;
   bottom: 3%;

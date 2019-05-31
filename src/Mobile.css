@@ -8,12 +8,10 @@
     justify-content: space-evenly;
   }
 
-
   .logotype {
     margin-top: 31px;
     margin-left: 8px;
     order: 0;
-
   }
 
   .delivery_adress {
@@ -26,14 +24,11 @@
     flex-direction: row;
   }
 
-
   .to {
     width: 3vw;
     margin: 0;
-    visibility: hidden
+    visibility: hidden;
   }
-
-
 
   #from input {
     width: 23vw;
@@ -42,14 +37,11 @@
     margin-top: 5px;
   }
 
-
-
   #adress_to {
     width: 40vh;
     height: 40px;
 
   }
-
 
   .verification_block {
     width: auto;
@@ -68,10 +60,6 @@
     margin-left: 9px;
   }
 
-
-
-
-
   .search {
     width: 90%;
     order: -1;
@@ -89,10 +77,8 @@
   }
 
   .busket {
-    visibility: hidden
+    visibility: hidden;
   }
-
-
 
   .title {
     display: block;
@@ -122,8 +108,6 @@
     flex-direction: column;
   }
 
-
-
   .card {
     width: 96vw;
     height: auto;
@@ -138,14 +122,10 @@
     text-align: -webkit-center;
   }
 
-
   .image img {
-
     width: 100%;
     height: 100%;
-
   }
-
 
   footer {
     height: auto;
@@ -189,7 +169,6 @@
     justify-content: left;
   }
 
-
   .bottom_line p {
     display: flex;
     flex-direction: column;
@@ -216,6 +195,4 @@
     -moz-transform: scale(1);
     -o-transform: scale(1);
   }
-
-
 }
