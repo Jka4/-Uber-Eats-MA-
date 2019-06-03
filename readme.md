@@ -1,1 +1,2 @@
 - [Demo link](https://jka4.github.io/-Uber-Eats-MA-/)
+- [Mockup](https://www.figma.com/file/Nzuqhw98XjFYZZJio10qUiEc/Uber-Eats?node-id=0%3A1)
