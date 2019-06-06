@@ -223,6 +223,7 @@
 
  .card:hover img {
    transition: all .5s ease-out;
+   transform: scale(1.01);
    -webkit-transform: scale(1.01);
    -moz-transform: scale(1.01);
    -o-transform: scale(1.01)
