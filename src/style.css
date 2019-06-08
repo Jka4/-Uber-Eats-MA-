@@ -456,3 +456,8 @@
    margin-left: calc(30px - (15.27px / 2));
    margin-top: calc(30px - (24.99px / 2))
  }
+
+
+ img {
+   display: block;
+ }
