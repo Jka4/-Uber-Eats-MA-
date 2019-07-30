@@ -1,8 +1,14 @@
 @media (min-width: 641px) and (max-width: 1023px) {
 
   header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
   }
 
@@ -90,7 +96,11 @@
     font-weight: normal;
     font-size: 22px;
     line-height: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     color: #1d1d1d;
     margin-bottom: 0;
@@ -98,6 +108,8 @@
 
   .mainContainer {
     width: 99%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     margin-top: -10px;
   }
@@ -120,8 +132,8 @@
     height: auto;
   }
 
-  .footerContainer {
-    width: 98%;
+  footer {
+    width: 100%;
   }
 
   .white_logo {
